@@ -21,7 +21,7 @@ const DiscordOauth2 = require("discord-oauth2");
 
 
 function App() {
-    const [icon, setIcon] = useState("https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png");
+    const [icon, setIcon] = useState("https://cdn.discordapp.com/icons/869599038545231882/6162397649389c0329f72a86a584df78.webp");
     const [title, setTitle] = useState("N/A");
 
     useEffect(() => {
